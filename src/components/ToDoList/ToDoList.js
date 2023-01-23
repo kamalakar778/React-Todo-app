@@ -2,9 +2,11 @@ import './ToDoList.css';
 
 function ToDoList(){
     return(
-        
-        <h1>ToDo List Form Appears Here!</h1>
-        
+        <>
+        <h1>ToDo List </h1>
+        <input type="text"/>
+        <input type="text"/>
+        </>
     )
 }
 
