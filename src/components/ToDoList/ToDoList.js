@@ -1,11 +1,16 @@
 import './ToDoList.css';
 
-function ToDoList(){
-    return(
+function ToDoList() {
+    return (
         <>
-        <h1>ToDo List </h1>
-        <input type="text"/>
-        <input type="text"/>
+            <h1>ToDo List </h1>
+            <div>
+                <label></label>
+                <input type="text" />
+                <label></label>
+                <input type="text" />
+
+            </div>
         </>
     )
 }
